@@ -1,4 +1,4 @@
-# ifttt_webhook_helium_integration
+# ifttt webhook to use with Helium console HTTP-Integration
 
 Sign up on IFTTT and head over to https://ifttt.com/maker_webhooks
 
@@ -18,7 +18,7 @@ insert following Message content `"{{EventName}}" has {{JsonPayload}}` and creat
 
 Name your Applet Title to something meaningful yet short.
 
-head over to console.helium.com
+head over to https://console.helium.com
 
 add integration > http and give it a name e.G. IFTTT_Notification
 
