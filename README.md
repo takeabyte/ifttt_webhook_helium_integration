@@ -28,7 +28,7 @@ https://maker.ifttt.com/trigger/helium_sensor/json/with/key/yourkeywillbehere
 select Show Details from ADVANCED - JSON MESSAGE TEMPLATE (OPTIONAL)
 
 paste the following code into your empty TEMPLATE BODY and hit save:
-{{{#decoded}}{{#payload}} "alarm": "{{ALARM}}", "door-open": "{{DOOR_OPEN_STATUS}}", "door-open-count": "{{DOOR_OPEN_TIMES}}", "last-open-duration": "{{LAST_DOOR_OPEN_DURATION}}", "battery-volts": "{{BAT_V}}", "mod": "{{MOD}}", {{/payload}}{{/decoded}} "name": "{{name}}", "reported_at": "{{reported_at}}"}
+`{{{#decoded}}{{#payload}} "alarm": "{{ALARM}}", "door-open": "{{DOOR_OPEN_STATUS}}", "door-open-count": "{{DOOR_OPEN_TIMES}}", "last-open-duration": "{{LAST_DOOR_OPEN_DURATION}}", "battery-volts": "{{BAT_V}}", "mod": "{{MOD}}", {{/payload}}{{/decoded}} "name": "{{name}}", "reported_at": "{{reported_at}}"}`
 
 adjust your variables according to your decoder function and save again
 
